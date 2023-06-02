@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/azmilhanif.react/static/css/main.6cc117ef.css",
+    "main.js": "/azmilhanif.react/static/js/main.8b86dff9.js",
+    "index.html": "/azmilhanif.react/index.html",
+    "main.6cc117ef.css.map": "/azmilhanif.react/static/css/main.6cc117ef.css.map",
+    "main.8b86dff9.js.map": "/azmilhanif.react/static/js/main.8b86dff9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cc117ef.css",
+    "static/js/main.8b86dff9.js"
+  ]
+}
