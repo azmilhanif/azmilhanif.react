@@ -62,5 +62,7 @@ button {
 }
 
 button:hover {
-	background-color: rgba (0, 136, 169, 0.8);
+	/* background-color: rgba (0, 136, 169, 0.8); */
+	background-color: #0088a9;
+	color: #Edf0f1;
 }
