@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/azmilhanif.react/static/css/main.5382dc8a.css",
-    "main.js": "/azmilhanif.react/static/js/main.8b86dff9.js",
+    "main.css": "/azmilhanif.react/static/css/main.41d92a04.css",
+    "main.js": "/azmilhanif.react/static/js/main.95e568c3.js",
     "index.html": "/azmilhanif.react/index.html",
-    "main.5382dc8a.css.map": "/azmilhanif.react/static/css/main.5382dc8a.css.map",
-    "main.8b86dff9.js.map": "/azmilhanif.react/static/js/main.8b86dff9.js.map"
+    "main.41d92a04.css.map": "/azmilhanif.react/static/css/main.41d92a04.css.map",
+    "main.95e568c3.js.map": "/azmilhanif.react/static/js/main.95e568c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5382dc8a.css",
-    "static/js/main.8b86dff9.js"
+    "static/css/main.41d92a04.css",
+    "static/js/main.95e568c3.js"
   ]
 }
