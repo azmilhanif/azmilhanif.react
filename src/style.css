@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 
 .column {
 	width: 100%;
-  }
-  
-  @media (min-width: 600px) {
+}
+
+@media (min-width: 600px) {
 	.column {
-	  width: 50%;
+		width: 50%;
 	}
-  }
+}
 
 body {
 	/*background: #FBF8BE;*/
 	background: white;
-	
+	font-family: 'Share Tech Mono', monospace;
+
 }
 
 
@@ -23,8 +26,12 @@ body {
 	padding: 0;
 }
 
-li, a, button {
-	font-family: "Montserrat", sans-serif;
+li,
+a,
+button {
+	/* font-family: "Montserrat", sans-serif; */
+	font-family: 'Share Tech Mono', monospace;
+
 	font-weight: 500;
 	font-size: 16px;
 	color: black;
@@ -48,7 +55,7 @@ header {
 .logo {
 	font-family: "Montserrat", sans-serif;
 	cursor: pointer;
-	font-weight:bolder;
+	font-weight: bolder;
 	font-size: 20px;
 	margin-right: auto;
 	color: black;
@@ -62,7 +69,7 @@ header {
 	align-items: center;
 	z-index: 1;
 	transition: 0.5s;
-	
+
 
 }
 
@@ -82,25 +89,34 @@ header {
 
 .nav__links li a:hover {
 	box-shadow: 0 -5px 0px #fff inset,
-	500px 0 0 rgba(255, 255, 255, 0.03) inset;
+		500px 0 0 rgba(255, 255, 255, 0.03) inset;
 	padding: 35px 25px 45px 25px;
 }
 
 button {
 	margin-left: 20px;
-	padding:  9px 25px;
+	padding: 9px 25px;
 	background-color: #Edf0f1;
 	color: #24252A;
 	border: none;
-	border-radius:  1px;
+	border-radius: 1px;
 	cursor: pointer;
 	transition: all 0.3s ease 0s
 }
 
-	button:hover {
-		/*background-color: #FBF8BE;
+​ button:hover {
+	/*background-color: #FBF8BE;
 	color: black;*/
 
-		background-color: black;
-		color: white;
-	}
+	background-color: black;
+	color: white;
+}
+
+.centreContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 60vh;
+}
