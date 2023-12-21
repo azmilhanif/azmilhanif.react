@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 
+<html lang="en" data-theme="light">
+
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="src\style.css">
+	<link rel="stylesheet" href="/src/style.css">
+	<link rel="icon" href="/media/icon.jpeg">
 	<title>azmilhanif</title>
+	<script src="/src/javascripts/App.js"></script>
+	<script src="/src/misc/darkmodeFunctions.js"></script>
 </head>
 
 <body>
+	<div id="root"></div>
 	<header>
 		<div class="logo" href="index.html">AZMILHANIF</div>
 		<nav>
 			<ul class="nav__links">
 				<li><a href="Experiences.html">Experiences</a></li>
 				<li><a href="images.html">Images</a></li>
-				<li><a href="index.html">Projects</a></li>
+				<li><a href="index.html">Developer Portfolio</a></li>
 				<li><a href="Spotify.html">Spotify</a></li>
-				<li><a href="index.html">Home</a></li>
+				<li><a href="Contact.html">Contact</a></li>
 			</ul>
 		</nav>
-		<a class="cta" href="#"><button>Contact</button></a>
-	</header>
+		<button onclick="darkModeToggle()" id="toggle-container">Toggle Dark Mode</button>
 
+	</header>
 
 	<div class='centreContainer'>
 		<h1>Hello World! Welcome to my <span class="auto-type"></span></h1>
-		<br><br>
-		<p>In here</p>
+
+		<br><br><br>
+		<p>This website acts as my digital portfolio for my photography, programming (web and application),
+			<br> and for testing purposes. Contact me through the Contact page for any enquiries. Feel free
+			<br> to look around 😁
+		</p>
+
 	</div>
 
 	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 	<script>
 		var typed = new Typed(".auto-type", {
 			strings: ["sanctuary", "safespace", "den", "page!"],
-			typeSpeed: 80,
-			backSpeed: 50,
+			typeSpeed: 90,
+			backSpeed: 20,
 			loop: true
 		})
 	</script>
-
 
 </body>
 

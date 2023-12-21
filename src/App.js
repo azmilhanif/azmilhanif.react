@@ -1,19 +1,25 @@
 // Created by azmilhanif(hazel)
 
-import './App.css';
-import React from 'react'
 
+import React from 'react'
+import Navbar from './misc/Navbar';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import './App.css';
 
 
 function App() {
 
-
   return (
-    <div>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Route path='/' exact />
+      </Router>
+
+    </>
+
   );
 }
 
-
-
 export default App;
+
