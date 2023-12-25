@@ -6,28 +6,40 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/src/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+		integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 	<link rel="icon" href="/media/icon.jpeg">
 	<title>azmilhanif</title>
 	<script src="/src/javascripts/App.js"></script>
-	<script src="/src/misc/darkmodeFunctions.js"></script>
+
 </head>
 
 <body>
-	<div id="root"></div>
+
 	<header>
-		<div class="logo" href="index.html">AZMILHANIF</div>
 		<nav>
-			<ul class="nav__links">
+
+			<div class="logo" href="index.html">AZMILHANIF</div>
+			<ul class="mainMenu">
 				<li><a href="Experiences.html">Experiences</a></li>
 				<li><a href="images.html">Images</a></li>
-				<li><a href="index.html">Developer Portfolio</a></li>
+				<li><a href="devPortfolio.html">Developer Portfolio</a></li>
 				<li><a href="Spotify.html">Spotify</a></li>
 				<li><a href="Contact.html">Contact</a></li>
 			</ul>
 		</nav>
-		<button onclick="darkModeToggle()" id="toggle-container">Toggle Dark Mode</button>
+		<button class="hamburger">
+			<div class="bar"></div>
+		</button>
 
 	</header>
+	<nav class="mobile-nav">
+		<a href="Experiences.html">Experiences</a>
+			<a href="images.html">Images</a>
+			<a href="devPortfolio.html">Developer Portfolio</a>
+			<a href="Spotify.html">Spotify</a>
+			<a href="Contact.html">Contact</a>
+	</nav>
 
 	<div class='centreContainer'>
 		<h1>Hello World! Welcome to my <span class="auto-type"></span></h1>
@@ -49,6 +61,11 @@
 			loop: true
 		})
 	</script>
+
+
+	<script src="/src/misc/hamburger.js>"></script>
+
+
 
 </body>
 
