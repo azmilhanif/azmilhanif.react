@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 
+<html lang="en" data-theme="light">
+
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="src\style.css">
-	<script src="src\Experience.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/src/style.css">
+	<link rel="icon" href="/media/icon.jpeg">
 	<title>azmilhanif</title>
-
+	<script src="/src/pages/snake.js"></script>
 
 </head>
 
 <body>
+	<div id="root"></div>
 	<header>
-		<div id="root"></div>
 		<div class="logo" href="index.html">AZMILHANIF</div>
 		<nav>
 			<ul class="nav__links">
-				<li><a href="Experiences.html">Experiences</a></li>
+                <li><a href="Experiences.html">Experiences</a></li>
 				<li><a href="images.html">Images</a></li>
 				<li><a href="devPortfolio.html">Developer Portfolio</a></li>
 				<li><a href="Spotify.html">Spotify</a></li>
 				<li><a href="Contact.html">Contact</a></li>
 			</ul>
 		</nav>
-		<a class="cta" href="#"><button>Contact</button></a>
+		<button onclick="darkModeToggle()" id="toggle-container">Toggle Dark Mode</button>
+
 	</header>
 
 	<div class='centreContainer'>
-		<h1>This is the experience page</h1>
-		<br><br>
-		<p>In here</p>
+        <h1>Snake</h1>
+		<canvas id="board"></canvas>
 	</div>
 
 </body>
